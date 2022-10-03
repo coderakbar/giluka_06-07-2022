@@ -13,10 +13,10 @@ void change(int* a, int* b)
 }
 
 //function created to reverse the the given array
-void rev(int a[], int a_size)
+void rev(int a[], int arr_size)
 {
     int *p1 = a;
-    int *p2 = a + a_size - 1;
+    int *p2 = a + arr_size - 1;
     while (p1 < p2){
         change(p1, p2);
         p1++;
@@ -25,10 +25,10 @@ void rev(int a[], int a_size)
 }
  
 //function to print the array
-void print(int* a, int a_size)
+void print(int* a, int arr_size)
 {
  
-    int *len1 = a + a_size;
+    int *len1 = a + arr_size;
     int *post = a;
     printf("Array = ");
     for (post = a; post < len1; post++){

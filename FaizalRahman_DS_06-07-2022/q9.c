@@ -1,3 +1,6 @@
+//9. WAP to find and remove the duplicate occurrences of an element in an
+//array and display the modified array.
+
 #include <stdio.h>
 
 int main(){

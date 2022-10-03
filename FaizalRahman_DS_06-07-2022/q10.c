@@ -1,3 +1,6 @@
+//10. Create an array of 10 elements using malloc functions. Further, read the array
+//from user and print the array.
+
 #include <stdio.h>
 #include <stdlib.h>
 

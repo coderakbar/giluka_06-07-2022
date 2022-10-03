@@ -33,6 +33,7 @@ void remall(char *s, char *rem)
     int i, j, slen, remlen;
     int found;
 
+    //function to give the length of our strings
     slen = strlen(s);
     remlen = strlen(rem);
 
